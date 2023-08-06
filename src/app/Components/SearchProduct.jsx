@@ -12,7 +12,7 @@ const Display = () => {
     if (!loading) {
       setloading(true);
       const response = await fetch(
-        `http://localhost:3000/Api/Search?query=${query}`
+        `Api/Search?query=${query}`
       );
 
       let rjson = await response.json();

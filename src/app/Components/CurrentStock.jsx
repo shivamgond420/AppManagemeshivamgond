@@ -7,7 +7,7 @@ const CurrentStock = () => {
 
   useEffect(() => {
     const Fatchproduct = async () => {
-      const response = await fetch("http://localhost:3000/Api/Product", {
+      const response = await fetch("Api/Product", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -15,6 +15,7 @@ const CurrentStock = () => {
       });
       let rjson = await response.json();
       Setprducts(rjson.AllProduct);
+     
  
     };
     Fatchproduct();
