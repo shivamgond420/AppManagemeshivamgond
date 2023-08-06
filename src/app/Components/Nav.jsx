@@ -9,8 +9,8 @@ const Nav = () => {
      STOCK-MNAGMENT
     </div>
     <div className="flex items-center">
-      <a href="#" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
-      <a href="#" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+      <a href="/" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+      <a href="/About" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
       <a href="#" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
     </div>
   </div>
